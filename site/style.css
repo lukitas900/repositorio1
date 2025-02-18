@@ -2,9 +2,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 body { 
-    background-image: linear-gradient(to bottom, aquamarine, aqua );
+    background-image: linear-gradient(to bottom, rgb(232, 239, 163), rgb(205, 225, 123) );
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; 
@@ -25,7 +26,7 @@ p{
 main{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 0px 0px 10px black;
     width: 700px;
     padding: 10px;
     margin: auto;
@@ -37,4 +38,19 @@ a{
 }
 .direita{
     float: right;
+}
+
+header{
+    background-color: rgb(84, 58, 55);
+    
+}
+header h1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
 }
